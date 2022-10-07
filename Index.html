@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.css">
     <title>LevelUp</title>
 </head>
 <body>
@@ -15,7 +17,6 @@
         <div class="promo-video">
             <video class="promo-video-media" src="src/video/videoforbg.webm" autoplay muted loop></video>
         </div>
-
         <div class="promo">
             <h1 class="promo__header">LevelUp</h1>
             <div class="promo__product">
@@ -28,12 +29,125 @@
                     <li class="promo__product-item">Lorem ipsum dolor.</li>
                 </ul>
             </div>
-            <a class="promo__product-button">Заказать</a>
+            <a href="#order" class="promo__product-button">Заказать</a>
         </div>
 
     </div>
+</section>
 
+<section>
+    <div class="comp">
+        <div class="comp__elem">
+            <img src="src/img/prod.png" alt="">
+            <p>Lorem ipsum dolor.</p>
+        </div>
+        <div class="comp__elem">
+            <img src="src/img/prod.png" alt="">
+            <p>Lorem ipsum dolor.</p>
+        </div>
+        <div class="comp__elem">
+            <img src="src/img/prod.png" alt="">
+            <p>Lorem ipsum dolor.</p>
+        </div>
+        <div class="comp__elem">
+            <img src="src/img/prod.png" alt="">
+        </div>
+        <div class="comp__elem">
+            <img src="src/img/prod.png" alt="">
+            <p>Lorem ipsum dolor.</p>
+        </div>
+        <div class="comp__elem">
+            <img src="src/img/prod.png" alt="">
+            <p>Lorem ipsum dolor.</p>
+        </div>
+        <div class="comp__elem">
+            <img src="src/img/prod.png" alt="">
+            <p>Lorem ipsum dolor.</p>
+        </div>
+    </div>
+    <div class="comp__button">
+        <a href="#order"  class="">Заказать</a>
+    </div>
 
 </section>
+
+<section class="carousel-container">
+    <div id="js-carousel-1" class="owl-carousel">
+        <div class="carousel-item">
+            <div class="item-content">
+                <img src="src/img/doctor.png" alt="doctor">
+                <div>Name Surname1</div>
+                <div>Some words about product</div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="item-content">
+                <img src="src/img/doctor.png" alt="doctor">
+                <div>Name Surname2</div>
+                <div>Some words about product</div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="item-content">
+                <img src="src/img/doctor.png" alt="doctor">
+                <div>Name Surname3</div>
+                <div>Some words about product</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container__four-promo">
+        <div class="four-promo-top">
+            <div class="four-promo__image-container"><img src="src/img/doctor.png" alt=""></div>
+            <div class="four-promo__description">descri des description descripti des descripti desc</div>
+        </div>
+        <div class="four-promo__character">
+            <ul class="four-promo__character-list">
+                <li class="four-promo__character-item">fast</li>
+                <li class="four-promo__character-item">quality</li>
+                <li class="four-promo__character-item">cheap</li>
+            </ul>
+        </div>
+        <div class="comp__button">
+            <a href="#order"  class="">Заказать</a>
+        </div>
+    </div>
+</section>
+
+<section id="order">
+    <div class="order-container">
+        <div class="order-name">LevelUp</div>
+        <div id="timer" class="order-timer"></div>
+        <div class="order-about-container">
+            <div class="order-about">
+                <div class="order_img"><img src="src/img/prod.png" alt=""></div>
+                <div class="order__price-container">
+                    <div class="price-old">5000</div>
+                    <div class="price-new">
+                        <div class="words">
+                            <span>4</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-form">
+                <form>
+                    <label class="form-label"><input type="text" placeholder="&nbsp;"><span>Например: Роман</span></label>
+                    <label class="form-label"><input type="number" placeholder="&nbsp;"><span>Например: +79270947905</span></label>
+                    <input type="submit" value="SUBMIT"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/owl.carousel/dist/owl.carousel.js"></script>
+<script src="src/js/main.js"></script>
 </body>
 </html>
